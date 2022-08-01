@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Request xmlns:ns2="urn:std.name" xmlns:ns3="urn:std.id" xmlns:ns4="urn:bkk.id" xmlns:ns5="urn:bkk.title"
+         xmlns:ns6="urn:bkk.author" xmlns:ns7="urn:bkk.date">
+    <StudentHD>
+        <ns2:StudentName>Antonio Madrigal</ns2:StudentName>
+        <ns3:StudentID>2</ns3:StudentID>
+    </StudentHD>
+    <BookHD>
+        <ns4:BookID>2</ns4:BookID>
+        <ns5:BookTitle>The Java Book</ns5:BookTitle>
+        <ns6:BookAuthor>Jax Bee</ns6:BookAuthor>
+        <ns7:Date>2022-07-28T16:37:59.920-04:00</ns7:Date>
+    </BookHD>
+</Request>

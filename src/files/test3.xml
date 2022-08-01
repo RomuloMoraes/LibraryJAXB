@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Request>
+    <RequestIDHd>3</RequestIDHd>
+    <StudentHD>
+        <StudentName>Julieta Madrigal</StudentName>
+        <StudentID>1</StudentID>
+    </StudentHD>
+    <BookHD>
+        <BookID>1</BookID>
+        <BookTitle>The Java Book</BookTitle>
+        <BookAuthor>Jax Bee</BookAuthor>
+        <Date>2022-07-28T17:04:14.389-04:00</Date>
+    </BookHD>
+</Request>
