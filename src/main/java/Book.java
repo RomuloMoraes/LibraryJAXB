@@ -1,7 +1,13 @@
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.xml.bind.annotation.*;
 import java.io.Serializable;
 import java.util.Date;
-
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(
         name = "FileBookInfo",
@@ -37,54 +43,10 @@ public class Book implements Serializable {
     )
     private Date date;
 
-    public Book() {
-
-    }
-
     public Book(long bookID, String bookTitle, String bookAuthor, Date date) {
         this.bookID = bookID;
         this.bookTitle = bookTitle;
         this.bookAuthor = bookAuthor;
-        this.date = date;
-    }
-
-    public Long getBookLibID() {
-        return bookLibID;
-    }
-
-    public void setBookLibID(Long bookLibID) {
-        this.bookLibID = bookLibID;
-    }
-
-    public Long getBookID() {
-        return bookID;
-    }
-
-    public void setBookID(Long bookID) {
-        this.bookID = bookID;
-    }
-
-    public String getBookTitle() {
-        return bookTitle;
-    }
-
-    public void setBookTitle(String bookTitle) {
-        this.bookTitle = bookTitle;
-    }
-
-    public String getBookAuthor() {
-        return bookAuthor;
-    }
-
-    public void setBookAuthor(String bookAuthor) {
-        this.bookAuthor = bookAuthor;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
         this.date = date;
     }
 

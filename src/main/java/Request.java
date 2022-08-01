@@ -1,5 +1,12 @@
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.xml.bind.annotation.*;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 @XmlRootElement(
         name = "Request"
 )
@@ -27,42 +34,6 @@ public class Request {
             required = true
     )
     private Book book;
-
-
-    public Request() {
-
-    }
-
-    public Request(Long requestID, Student student, Book book) {
-        this.requestID = requestID;
-        this.student = student;
-        this.book = book;
-
-    }
-
-    public Long getRequestID() {
-        return requestID;
-    }
-
-    public void setRequestID(Long requestID) {
-        this.requestID = requestID;
-    }
-
-    public Student getStudent() {
-        return student;
-    }
-
-    public void setStudent(Student student) {
-        this.student = student;
-    }
-
-    public Book getBook() {
-        return book;
-    }
-
-    public void setBook(Book book) {
-        this.book = book;
-    }
 
     @Override
     public String toString() {

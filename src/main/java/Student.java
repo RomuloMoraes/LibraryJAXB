@@ -1,8 +1,15 @@
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(
         name = "FileStudentInfo",
@@ -23,28 +30,5 @@ public class Student {
     )
     protected Long studentID;
 
-    public Student() {
 
-    }
-
-    public Student(String studentName, Long studentID) {
-        this.studentName = studentName;
-        this.studentID = studentID;
-    }
-
-    public String getStudentName() {
-        return studentName;
-    }
-
-    public void setStudentName(String studentName) {
-        this.studentName = studentName;
-    }
-
-    public Long getStudentID() {
-        return studentID;
-    }
-
-    public void setStudentID(Long studentID) {
-        this.studentID = studentID;
-    }
 }
