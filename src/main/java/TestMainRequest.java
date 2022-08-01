@@ -1,3 +1,7 @@
+import model.Book;
+import model.Request;
+import model.Student;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
@@ -12,7 +16,7 @@ public class TestMainRequest {
 
         Student student = new Student("Maribel Madrigal", 1L);
 
-        Book book = new Book(1L, "The Book of JAXB", "Jax Bee", new Date());
+        Book book = new Book(1L, "The model.Book of JAXB", "Jax Bee", new Date());
 
         Request request = new Request(3L, student, book);
 

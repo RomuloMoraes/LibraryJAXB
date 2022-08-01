@@ -7,7 +7,7 @@
     </StudentHD>
     <BookHD>
         <BookID>1</BookID>
-        <BookTitle>The Book of JAXB</BookTitle>
+        <BookTitle>The model.Book of JAXB</BookTitle>
         <BookAuthor>Jax Bee</BookAuthor>
         <Date>2022-08-01T11:20:42.091-04:00</Date>
     </BookHD>
