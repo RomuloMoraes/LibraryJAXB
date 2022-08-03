@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <book bookID="1">
-    <bookTitle>The model.Book of JAXB</bookTitle>
+    <bookTitle>The com.library.project.model.Book of JAXB</bookTitle>
     <bookAuthor>Jax Bee</bookAuthor>
     <date>2022-07-27T16:07:06.865-04:00</date>
 </book>

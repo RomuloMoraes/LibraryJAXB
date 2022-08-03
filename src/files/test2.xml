@@ -7,7 +7,7 @@
     </StudentHD>
     <BookHD>
         <ns4:BookID>2</ns4:BookID>
-        <ns5:BookTitle>The Java model.Book</ns5:BookTitle>
+        <ns5:BookTitle>The Java com.library.project.model.Book</ns5:BookTitle>
         <ns6:BookAuthor>Jax Bee</ns6:BookAuthor>
         <ns7:Date>2022-07-28T16:37:59.920-04:00</ns7:Date>
     </BookHD>

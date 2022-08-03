@@ -7,7 +7,7 @@
     </StudentHD>
     <BookHD>
         <BookID>1</BookID>
-        <BookTitle>The Java model.Book</BookTitle>
+        <BookTitle>The Java com.library.project.model.Book</BookTitle>
         <BookAuthor>Jax Bee</BookAuthor>
         <Date>2022-07-28T17:04:14.389-04:00</Date>
     </BookHD>

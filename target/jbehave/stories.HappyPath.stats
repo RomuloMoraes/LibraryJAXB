@@ -1,0 +1,23 @@
+#org.jbehave.core.reporters.PostStoryStatisticsCollector
+#Wed Aug 03 10:46:32 AMT 2022
+scenariosExcluded=0
+comments=0
+scenariosPending=0
+pending=0
+stepsFailed=0
+scenarios=1
+stepsSuccessful=2
+stepsIgnorable=0
+givenStoryScenariosSuccessful=0
+steps=2
+givenStoryScenariosPending=0
+excluded=0
+givenStoryScenarios=0
+scenariosFailed=0
+examples=1
+stepsPending=0
+scenariosSuccessful=1
+stepsNotPerformed=0
+givenStoryScenariosExcluded=0
+givenStories=0
+givenStoryScenariosFailed=0

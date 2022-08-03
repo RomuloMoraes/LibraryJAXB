@@ -17,6 +17,11 @@
 
     <properties>
         <java.version>17.0.4</java.version>
+        <jbehave.skip.tests>false</jbehave.skip.tests>
+        <meta.filter>!skip</meta.filter>
+        <ignoreFailureInStories>true</ignoreFailureInStories>
+        <project.build.sourceEncode>UTF-8</project.build.sourceEncode>
+        <failsafe.version>3.0.0-M5</failsafe.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,9 +59,29 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.22</version>
+        </dependency>
+        <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jbehave</groupId>
+            <artifactId>jbehave-maven-plugin</artifactId>
+            <version>5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jbehave</groupId>
+            <artifactId>jbehave-core</artifactId>
+            <version>5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>jbehave-junit-runner</artifactId>
+            <version>1.2.0</version>
         </dependency>
     </dependencies>
 

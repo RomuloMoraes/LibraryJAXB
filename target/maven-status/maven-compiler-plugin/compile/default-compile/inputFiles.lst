@@ -1,5 +1,11 @@
-C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\TestMainRequest.java
-C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\Student.java
-C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\Book.java
-C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\TestMain.java
-C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\Request.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\repository\StudentRepository.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\model\Book.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\repository\BookRepository.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\controller\BookController.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\repository\RequestRepository.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\TestMain.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\model\Student.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\service\BookService.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\TestSpringBootApp.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\TestMainRequest.java
+C:\Users\Romulo Moraes\Documents\projects\LibraryJAXB\src\main\java\com\library\project\model\Request.java

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <book bookID="1">
-    <bookTitle>The Java model.Book</bookTitle>
+    <bookTitle>The Java com.library.project.model.Book</bookTitle>
     <bookAuthor>Deitel</bookAuthor>
     <date>2022-07-27T13:55:53.845-04:00</date>
 </book>
