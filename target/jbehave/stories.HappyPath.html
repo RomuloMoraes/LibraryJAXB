@@ -1,43 +1,49 @@
-<div id="5864c01d-0ace-4ad1-b033-dcfe617a4225" class="story">
+<div id="98088089-a257-4fef-ac75-3bb64a5b205e" class="story">
 <h1></h1>
 <div class="path">stories/HappyPath.story</div>
 <div class="beforeSystemStorySteps">
 </div>
 <div class="beforeUserStorySteps">
 </div>
-<div id="851cad5f-0962-4a24-a491-cc6e257d6fef" class="scenario">
+<div id="60e95e61-c8cc-4506-ae0e-868e07683f7c" class="scenario">
 <h2>Scenario: Student request 1 book from library</h2>
 <div class="examples">
 <h3>Examples:</h3>
-<div class="step">Given Student is logged</div>
-<div class="step">Given Student types the &lt;$bookName&gt; book's name</div>
+<div class="step">Given Student &lt;$studentName&gt; is logged</div>
+<div class="step">And Student types the &lt;$bookName&gt; book's name</div>
+<div class="step">When Student selects the book</div>
+<div class="step">Then The book is assigned to the book</div>
+<div class="step">And The system create a xml file with &lt;$studentName&gt;, &lt;$studentId&gt;, &lt;$bookName&gt; and &lt;$bookId&gt; data</div>
 <table>
 <thead>
 <tr>
-<th>bookName</th></tr>
+<th>studentName</th><th>studentId</th><th>bookName</th><th>bookId</th></tr>
 </thead>
 <tbody>
 <tr>
-<td>The Book of Java</td></tr>
+<td>Maribel Madrigal</td><td>1</td><td>The Book of Java</td><td>1</td></tr>
 </tbody>
 </table>
 
-<h3 class="example">Example: {bookName=The Book of Java}</h3>
+<h3 class="example">Example: {studentId=1, bookName=The Book of Java, studentName=Maribel Madrigal, bookId=1}</h3>
 <div class="beforeSystemScenarioSteps">
 </div>
 <div class="beforeUserScenarioSteps">
 </div>
 <div class="steps">
-<div class="step successful">Given Student is logged</div>
-<div class="step successful">Given Student types the &lt;$bookName&gt; book's name</div>
+<div class="step successful">Given Student &lt;$studentName&gt; is logged</div>
+<div class="step successful">And Student types the &lt;$bookName&gt; book's name</div>
+<div class="step successful">When Student selects the book</div>
+<div class="step successful">Then The book is assigned to the book</div>
+<div class="step successful">And The system create a xml file with &lt;$studentName&gt;, &lt;$studentId&gt;, &lt;$bookName&gt; and &lt;$bookId&gt; data</div>
 </div>
 <div class="afterUserScenarioSteps">
 </div>
 <div class="afterSystemScenarioSteps">
 </div>
 </div>
-<h3>start 1659537992654</h3>
-<h3>end 1659537992694</h3>
+<h3>start 1659552924567</h3>
+<h3>end 1659552924622</h3>
 </div>
 <div class="afterUserStorySteps">
 </div>
